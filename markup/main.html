@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<title>Вопросики!</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="manifest" href="favicon/site.webmanifest">
+		<link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#131212">
+		<link rel="stylesheet" href="css/style.css">
+	 </head>
+<body>
+	<div class="wrapper">
+		<header class="header" id="header">
+			<div class="container header__wrapper">
+				<form class="form-question__form" id="form-question">
+					<h2 class="form-questrion__title">Задай вопрос и получи ответ!(возможно)</h2>
+					<button type="button" class="form-question__link" data-toggle="modal" data-target="#modal">Задай свой вопрос!</button>
+				</form>
+			</div>
+		</header>
+		<main class="page-content">
+			<div class="container">
+				<div class="sort__wrapper">
+					<div class="sort__time">
+						<h3 class="">Сортировать:</h3>
+						<select class="sort__select">
+							<option selected>Сначала Новые</option>
+							<option>Сначала Старые</option>
+						</select>
+					</div>
+					<div class="sort__tag">
+						<h3 class="">Выбор по тегу:</h3>
+						<select class="sort__select">
+							<option selected>Все</option>
+							<option>Жизнь</option>
+							<option>Игры</option> 
+							<option>Образование</option>
+						</select>
+
+					</div>
+				</div>
+				<div class="catalog-wrapper">
+					<ul class="catalog__list">
+						<li class="catalog__link-wrapper">
+							<a class="catalog__link" href="#">
+								<div class="catalog info-wrapper">
+									<p class="catalog__link info__title">Vopros textasdasdasdasdasdasdasdads</p>
+									<span class="catalog__link info__author">Name, date , rating</span>
+								</div>
+							</a>
+						</li>
+						<li class="catalog__link-wrapper">
+							<a class="catalog__link" href="#">
+								<div class="catalog info-wrapper">
+									<p class="catalog__link info__title">Vopros textasdasdasdasdasdasdasdads</p>
+									<span class="catalog__link info__author">Name, date , rating</span>
+								</div>
+							</a>
+						</li>
+						<li class="catalog__link-wrapper">
+							<a class="catalog__link" href="#">
+								<div class="catalog info-wrapper">
+									<p class="catalog__link info__title">Vopros textasdasdasdasdasdasdasdads</p>
+									<span class="catalog__link info__author">Name, date , rating</span>
+								</div>
+							</a>
+						</li>
+						<li class="catalog__link-wrapper">
+							<a class="catalog__link" href="#">
+								<div class="catalog info-wrapper">
+									<p class="catalog__link info__title">Vopros textasdasdasdasdasdasdasdads</p>
+									<span class="catalog__link info__author">Name, date , rating</span>
+								</div>
+							</a>
+						</li>
+						<li class="catalog__link-wrapper">
+							<a class="catalog__link" href="#">
+								<div class="catalog info-wrapper">
+									<p class="catalog__link info__title">Vopros textasdasdasdasdasdasdasdads</p>
+									<span class="catalog__link info__author">Name, date , rating</span>
+								</div>
+							</a>
+						</li>
+						<li class="catalog__link-wrapper">
+							<a class="catalog__link" href="#">
+								<div class="catalog info-wrapper">
+									<p class="catalog__link info__title">Vopros textasdasdasdasdasdasdasdads</p>
+									<span class="catalog__link info__author">Name, date , rating</span>
+								</div>
+							</a>
+						</li>
+						<li class="catalog__link-wrapper">
+							<a class="catalog__link" href="#">
+								<div class="catalog info-wrapper">
+									<p class="catalog__link info__title">Vopros textasdasdasdasdasdasdasdads</p>
+									<span class="catalog__link info__author">Name, date , rating</span>
+								</div>
+							</a>
+						</li>
+						<li class="catalog__link-wrapper">
+							<a class="catalog__link" href="#">
+								<div class="catalog info-wrapper">
+									<p class="catalog__link info__title">Vopros textasdasdasdasdasdasdasdads</p>
+									<span class="catalog__link info__author">Name, date , rating</span>
+								</div>
+							</a>
+						</li>
+						<li class="catalog__link-wrapper">
+							<a class="catalog__link" href="#">
+								<div class="catalog info-wrapper">
+									<p class="catalog__link info__title">Vopros textasdasdasdasdasdasdasdads</p>
+									<span class="catalog__link info__author">Name, date , rating</span>
+								</div>
+							</a>
+						</li>
+						<li class="catalog__link-wrapper">
+							<a class="catalog__link" href="#">
+								<div class="catalog info-wrapper">
+									<p class="catalog__link info__title">Vopros textasdasdasdasdasdasdasdads</p>
+									<span class="catalog__link info__author">Name, date , rating</span>
+								</div>
+							</a>
+						</li>
+						<li class="catalog__link-wrapper">
+							<a class="catalog__link" href="#">
+								<div class="catalog info-wrapper">
+									<p class="catalog__link info__title">Vopros textasdasdasdasdasdasdasdads</p>
+									<span class="catalog__link info__author">Name, date , rating</span>
+								</div>
+							</a>
+						</li>
+						<li class="catalog__link-wrapper">
+							<a class="catalog__link" href="#">
+								<div class="catalog info-wrapper">
+									<p class="catalog__link info__title">Vopros textasdasdasdasdasdasdasdads</p>
+									<span class="catalog__link info__author">Name, date , rating</span>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</main>
+	</div>
+	<div style="position: relative; width: 550px; height: 610px; margin-bottom: 50px;">
+		<div class="modal modal--question">
+		  <div class="modal__wrapper">
+			 <div class="modal__overlay" data-close-modal></div>
+			 <div class="modal__content">
+				<h2 class="modal__header modal__header--review title title--medium">Задать вопрос!</h2>
+				<form class="form-question">
+				  <div class="form-question__wrapper">
+					 <div class="form-question__name-wrapper">
+						<label class="form-question__label form-question__label--required" for="user-name">Ваше Имя</label>
+						<input class="form-question__input form-question__input--name" id="user-name" type="text" autocomplete="off">
+						<label class="form-question__label form-question__label--required" for="user-name">Название темы</label>
+						<input class="form-question__input form-question__input--name" id="user-name" type="text" autocomplete="off">
+					 </div>
+					 <div class="form-question__radio-wrapper">
+						 <div>
+							<input type="radio" name="tag" value="Жизнь" id="Жизнь">
+							<label for="Жизнь">Жизнь</label>
+						 </div>
+						 <div>
+							<input type="radio" name="tag" value="Игры" id="Игры">
+							<label for="Игры">Игры</label>
+						 </div>
+						 <div>
+							<input type="radio" name="tag" value="Образование" id="Образование">
+							<label for="Образование">Образование</label>
+						 </div>
+					 </div>
+				  </div>
+				  <div class="form-question__question-wrapper">
+				  <label class="form-question__label form-question__label--required" for="comment">Вопрос</label>
+				  <textarea class="form-question__input form-question__input--textarea" id="comment" rows="3" autocomplete="off"></textarea>
+				  <button class="button button--medium-20 form-question__button" type="submit">Отправить отзыв</button>
+				</div>
+				</form>
+				<button class="modal__close-btn button-cross" type="button" aria-label="Закрыть"><span class="button-cross__icon"></span><span class="modal__close-btn-interactive-area"></span>
+				</button>
+			 </div>
+		  </div>
+		</div>
+	 </div>
+</body>
+</html>
